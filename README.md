@@ -21,12 +21,18 @@ Este proyecto tiene como objetivo mejorar el proceso de cultivo utilizando intel
    #define WIFI_PASSWORD "tuContraseña"
    ```
 3. Compila y sube el firmware al dispositivo utilizando Arduino IDE.
+4. Para la interfaz web, instala las dependencias de Python:
+   ```sh
+   pip install -r requirements.txt
+   python app.py
+   ```
 
 ## Uso
 
 1. Enciende el dispositivo.
 2. Accede a la interfaz de configuración WiFi y conéctate a la red.
 3. Monitoriza los datos en tiempo real desde ThingSpeak.
+4. Visualiza el estado del sistema en la interfaz web en http://localhost:5000
 
 ## Contribuir
 
